@@ -3,7 +3,7 @@
 $dbName = 'minicurso-php';
 $hostName = 'localhost';
 $dbUsername = 'root';
-$dbPassword = '5557975';
+$dbPassword = '';
 
 try{
     $db = new PDO("mysql:dbname={$dbName};host={$hostName}", $dbUsername, $dbPassword);
